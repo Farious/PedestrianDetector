@@ -1,0 +1,13 @@
+30/04/2013
+Fabio R.
+This is still an prototype. It is implemented with a cmake, but it is standalone
+ regarding the HDA project cmake system.
+
+31/07/2013
+Matteo T. & Fabio R.
+Comparing with the matlab code in:
+ ~/PhD/my_code/SoftCascade/6.1.BaseInitialNegativesAsInBootstrap/Data/
+
+12/08/2013
+Fabio R.
+Ported the code over to ROS, maintaining the native part in the same project.

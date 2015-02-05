@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<detector>
+  <!-- Verbose -->
+  <verbose value="0"/>
+  
+  <!-- Pyramid calculation options -->
+    <!-- Number of channels -->
+    <!-- Number of Scale Approximations to compute between real scales -->
+    <!-- Minimum Dimensions -->
+      <!-- Height -->
+      <!-- Width -->
+  <pyramid
+    nrChannels="3"
+    nrScales="0"
+    minH="50"
+    minW="20"
+  />
+
+  <!-- Classifier options -->
+      <!-- WidthOverHeight -->
+      <!-- Shrink factor -->
+      <!-- Theoretical window dimensions-->
+      <!-- Theoretical active window dimensions -->       
+          
+      <!-- Rectangles Data -->
+        <!-- File with rectangles data -->
+        <!-- Number of features -->
+        <!-- Number of properties per rectangle -->
+      
+      <!-- Classifier Data -->
+        <!-- File with classifier data -->
+        <!-- Number of classifiers -->
+        <!-- Number of columns per classifier -->
+     
+      <!-- What are these? -->
+      <!-- nBaseFeatures -->
+      <!-- nExtraFeatures -->  
+  <classifier id="1"
+    widthOverHeight="0.41"
+    
+    shrinkFactor="4"
+        
+    theoWWidth="52"
+    theoWHeight="128"
+    
+    theoActWWidth="39.36"
+    theoActWHeight="96"
+    
+    rectFile="rectangles.dat"
+    nrFeatures="3000"
+    nrProp="5"
+    
+    classFile="StrongClassifierTreeStep9.txt"
+    nrClass="1000"
+    nrCol="14"
+    
+    nBaseFeatures="3000"
+    nExtraFeatures="10"
+  />
+</detector>
